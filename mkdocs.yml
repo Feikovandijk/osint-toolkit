@@ -1,32 +1,45 @@
 # Site Information
-site_name: My OSINT Toolkit
-site_url: https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
-site_author: Your Name
+site_name: OSINT Toolkit
+site_url: https://feikovandijk.github.io/osint-toolkit/
+site_author: Feiko van Dijk
 site_description: A searchable collection of OSINT tools and resources.
 
 # Theme Configuration
 theme:
   name: material
   palette:
-    # Set the color scheme to dark mode
+    # GitBook-like dark mode only
     scheme: slate
-    primary: blue
+    primary: indigo
+    accent: indigo
   features:
-    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  font:
+    text: Inter
+    code: JetBrains Mono
 
-# Navigation Menu
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
 # Navigation Menu
 nav:
   - 'Home': 'index.md'
-  - '🗺️ Geospatial & Maps': 'geospatial-maps.md'
-  - '👥 Social Media': 'social-media.md'
-  - '📸 Image & Video': 'image-video.md'
-  - '🌐 Domain & IP': 'domain-ip.md'
-  - '👤 People Search': 'people-search.md'
-  - '✈️ Transportation': 'transportation.md'
-  - '📰 News & Events': 'news-monitoring.md'
-  - '🕵️ Dark Web & Anonymity': 'dark-web.md' # <-- ADD THIS LINE
-  - '📖 Resources': 'verification-resources.md'
-  - '🔧 Extensions': 'extensions-utilities.md'
+  - 'Geospatial & Maps': 'geospatial-maps.md'
+  - 'Social Media': 'social-media.md'
+  - 'Image & Video': 'image-video.md'
+  - 'Domain & IP': 'domain-ip.md'
+  - 'People Search': 'people-search.md'
+  - 'Transportation': 'transportation.md'
+  - 'News & Events': 'news-monitoring.md'
+  - 'Dark Web & Anonymity': 'dark-web.md'
+  - 'OPSEC & Privacy': 'opsec-privacy.md'
+  - 'Resources': 'verification-resources.md'
+  - 'Extensions': 'extensions-utilities.md'

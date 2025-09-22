@@ -1,0 +1,14 @@
+# MkDocs build output
+site/
+
+# Python virtual environment (if used)
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Editor-specific temporary files
+*.swp
+*.swo
