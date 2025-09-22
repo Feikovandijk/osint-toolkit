@@ -1,0 +1,32 @@
+# Site Information
+site_name: My OSINT Toolkit
+site_url: https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+site_author: Your Name
+site_description: A searchable collection of OSINT tools and resources.
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    # Set the color scheme to dark mode
+    scheme: slate
+    primary: blue
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+
+# Navigation Menu
+# Navigation Menu
+nav:
+  - 'Home': 'index.md'
+  - '🗺️ Geospatial & Maps': 'geospatial-maps.md'
+  - '👥 Social Media': 'social-media.md'
+  - '📸 Image & Video': 'image-video.md'
+  - '🌐 Domain & IP': 'domain-ip.md'
+  - '👤 People Search': 'people-search.md'
+  - '✈️ Transportation': 'transportation.md'
+  - '📰 News & Events': 'news-monitoring.md'
+  - '🕵️ Dark Web & Anonymity': 'dark-web.md' # <-- ADD THIS LINE
+  - '📖 Resources': 'verification-resources.md'
+  - '🔧 Extensions': 'extensions-utilities.md'
