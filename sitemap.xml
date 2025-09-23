@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/dark-web/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/domain-ip/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/extensions-utilities/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/geospatial-maps/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/image-video/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://feikovandijk.github.io/osint-toolkit/master-database/</loc>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/news-monitoring/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/opsec-privacy/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/people-search/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/social-media/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/transportation/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
     <url>
          <loc>https://feikovandijk.github.io/osint-toolkit/verification-resources/</loc>
-         <lastmod>2025-09-22</lastmod>
+         <lastmod>2025-09-23</lastmod>
     </url>
 </urlset>
