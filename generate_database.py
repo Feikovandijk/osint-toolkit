@@ -61,6 +61,10 @@ CATEGORY_INFO = {
     "extensions-utilities.md": {
         "name": "Extensions & Utilities",
         "description": "Browser plugins, utilities"
+    },
+    "transportation.md": {
+        "name": "Transportation Tracking",
+        "description": "Aircraft and maritime tracking"
     }
 }
 
@@ -157,7 +161,7 @@ A comprehensive, searchable database of all OSINT tools and resources organized 
     for filename, info in CATEGORY_INFO.items():
         if filename in category_stats:
             tool_count = category_stats[filename]
-            content += f"\n| {info['name']} | {info['description']} | {tool_count}+ | [View Tools →]({filename.replace('.md', '')}) |"
+            content += f"\n| {info['name']} | {info['description']} | {tool_count}+ | [View Tools →]({filename.replace('.md', '')}.md) |"
     
     content += "\n\n---\n\n## All Tools by Category\n\n"
     
@@ -199,7 +203,7 @@ A comprehensive, searchable database of all OSINT tools and resources organized 
                 if any(keyword in tool['name'].lower() or keyword in tool['description'].lower() 
                       for keyword in search_keywords):
                     category_name = CATEGORY_INFO[filename]['name']
-                    content += f"\n| {tool['name']} | [{category_name}]({filename.replace('.md', '')}) | {tool['description'][:80]}... |"
+                    content += f"\n| {tool['name']} | [{category_name}]({filename.replace('.md', '')}.md) | {tool['description'][:80]}... |"
 
     content += """
 
@@ -215,7 +219,7 @@ A comprehensive, searchable database of all OSINT tools and resources organized 
                 if any(keyword in tool['name'].lower() or keyword in tool['description'].lower() 
                       for keyword in analysis_keywords):
                     category_name = CATEGORY_INFO[filename]['name']
-                    content += f"\n| {tool['name']} | [{category_name}]({filename.replace('.md', '')}) | {tool['description'][:80]}... |"
+                    content += f"\n| {tool['name']} | [{category_name}]({filename.replace('.md', '')}.md) | {tool['description'][:80]}... |"
 
     content += """
 
@@ -239,16 +243,16 @@ A comprehensive, searchable database of all OSINT tools and resources organized 
     for tool_name, category_file, reason in popular_tools:
         if category_file in CATEGORY_INFO:
             category_name = CATEGORY_INFO[category_file]['name']
-            content += f"\n| {tool_name} | [{category_name}]({category_file.replace('.md', '')}) | {reason} |"
+            content += f"\n| {tool_name} | [{category_name}]({category_file.replace('.md', '')}.md) | {reason} |"
 
     content += f"""
 
 ### Quick Actions
-- **Need to find someone?** → Start with [People Search](people-search)
-- **Investigating a website?** → Check [Domain & IP Intelligence](domain-ip)
-- **Looking for images?** → Use [Image & Video Analysis](image-video)
-- **Dark web research?** → Browse [Dark Web & Anonymity](dark-web)
-- **Privacy concerns?** → Review [OPSEC & Privacy](opsec-privacy)
+- **Need to find someone?** → Start with [People Search](people-search.md)
+- **Investigating a website?** → Check [Domain & IP Intelligence](domain-ip.md)
+- **Looking for images?** → Use [Image & Video Analysis](image-video.md)
+- **Dark web research?** → Browse [Dark Web & Anonymity](dark-web.md)
+- **Privacy concerns?** → Review [OPSEC & Privacy](opsec-privacy.md)
 
 ---
 
