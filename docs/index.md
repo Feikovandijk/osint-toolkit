@@ -2,6 +2,8 @@
 
 Welcome to my personal Open Source Intelligence resource hub.
 
+> **🗃️ [Master Database](master-database.md)** - Browse all tools in one comprehensive, searchable database
+
 ---
 
 ## Tool Categories
